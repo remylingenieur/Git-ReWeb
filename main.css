@@ -45,3 +45,46 @@ li {
     padding: 10px;
     border-radius: 5px;
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    p, li {
+        font-size: 1em;
+    }
+}
+/* Additional styles for better readability */
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 5px solid #4a90e2;
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+}
+/* Style for images */
+/* Style for tables */
